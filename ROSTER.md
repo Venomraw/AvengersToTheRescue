@@ -4,4 +4,9 @@ Each entry should denote a member of your team and look exactly like the followi
 
 * Kayleigh Duncan, @pattonsgirl, Instructor
 * Matt Kijowski, @mkijowski, Instructor
-* `<Real Name>, <@github-username>, <role on team>`
+* Binamra Sigdel, @venomraw ,TeamCaptain
+* Prarthana Neupane, @theprarthana08, Teammate
+* Max Warner, @maxgwar, teammate
+* Nhan Pham, @yungpham676, teammate
+* Colin Brunson, @colmor05, teammate
+
