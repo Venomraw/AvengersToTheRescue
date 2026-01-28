@@ -1,4 +1,4 @@
-# Threat Intel
+## Threat Intel
 
 ---
 
@@ -11,3 +11,22 @@ The **National Vulnerability Database (NVD)** is maintained by **National Instit
 * CVSS (Common Vulnerability Scoring System)
 
 ---
+## CPE Lookup (NVD)
+
+CPE (Common Platform Enumeration) is a standardized way to name software and hardware.
+
+Use the NVD CPE Search: https://nvd.nist.gov/products/cpe/search
+
+steps:
+
+Search for a product and version
+
+click on the CPE 2.3 string
+
+Example CPE:
+
+```
+cpe:2.3:a:openssl:openssl:1.0.2f:*:*:*:*:*:*:*
+```
+
+click View Vulnerabilities at the bottom to see related CVEs
