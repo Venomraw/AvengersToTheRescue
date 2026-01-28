@@ -25,7 +25,7 @@ steps:
 
 - click View Vulnerabilities at the bottom to see related CVEs
 
-- Example CPE:
+Example CPE:
 
 ```
 cpe:2.3:a:openssl:openssl:1.0.2f:*:*:*:*:*:*:*
