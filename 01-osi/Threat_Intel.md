@@ -30,3 +30,21 @@ Example CPE:
 ```
 cpe:2.3:a:openssl:openssl:1.0.2f:*:*:*:*:*:*:*
 ```
+---
+## 3. CVEs
+
+A **CVE (Common Vulnerabilities and Exposures)** ID uniquely identifies a public vulnerability.
+
+Format:
+
+```
+CVE-YYYY-NNNNN
+```
+
+Example:
+
+* **CVE-2014-3566** – POODLE (SSL 3.0)
+
+CVEs in NVD include descriptions, severity scores, and affected CPEs.
+
+---
