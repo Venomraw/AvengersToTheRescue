@@ -31,7 +31,7 @@ Example CPE:
 cpe:2.3:a:openssl:openssl:1.0.2f:*:*:*:*:*:*:*
 ```
 ---
-## 3. CVEs
+## CVEs
 
 A **CVE (Common Vulnerabilities and Exposures)** ID uniquely identifies a public vulnerability.
 
