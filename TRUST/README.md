@@ -1,15 +1,6 @@
 # Trust
 
-Upload to this folder the following:
-
-- SSH Public Keys with Usernames of each member
-- GPG Public Keys of each member
-- Signature file named `yourlastname.sigs` which includes *your* signature on each of the other above gpg keys.
-
-## Instructions for GPG
-
-- Create your key `gpg --full-generate-key`
-  -  Use your real name and campus email!
+email!
   -  Use all the bits (4096)!
   -  Use a password that you will not forget!
   -  We will use this key again so make sure you save it!
@@ -23,7 +14,16 @@ For example:
 ```bash
 mkijowski@mattpc:~$ gpg --fingerprint kijowski
 
-pub   rsa4096 2021-09-08 [SC]
+pub   rsa4096 2021-09-08 [SC]Upload to this folder the following:
+
+- SSH Public Keys with Usernames of each member
+- GPG Public Keys of each member
+- Signature file named `yourlastname.sigs` which includes *your* signature on each of the other above gpg keys.
+
+## Instructions for GPG
+
+- Create your key `gpg --full-generate-key`
+  -  Use your real name and campus 
       E477 6341 6159 625F 60AC  E88A 7E5C F54E 1BBA 3984
 uid           [ultimate] Matthew Kijowski (Wright State University) <matthew.kijowski@wright.edu>
 uid           [ultimate] Matthew Kijowski <matthewkijowski@gmail.com>
