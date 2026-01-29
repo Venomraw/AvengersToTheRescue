@@ -4,12 +4,10 @@
 
 ##  NIST & the National Vulnerability Database (NVD)
 
-The **National Vulnerability Database (NVD)** is maintained by **National Institute of Standards and Technology (NIST) ** and is the primary source for U.S. government vulnerability data. It contains:
+The National Vulnerability Database (NVD) is maintained by National Institute of Standards and Technology (NIST) and is the primary source for U.S. government vulnerability data. It contains:
 
-* CVEs (vulnerability identifiers)
-* CPEs (affected products)
-* CVSS (Common Vulnerability Scoring System)
-
+- CVEs (vulnerability identifiers)
+- CPEs (affected products)
 ---
 ## CPE Lookup (NVD)
 
@@ -33,7 +31,7 @@ cpe:2.3:a:openssl:openssl:1.0.2f:*:*:*:*:*:*:*
 ---
 ## CVEs
 
-A **CVE (Common Vulnerabilities and Exposures)** ID uniquely identifies a public vulnerability.
+A CVE (Common Vulnerabilities and Exposures) ID uniquely identifies a public vulnerability.
 
 Format:
 
@@ -43,8 +41,7 @@ CVE-YYYY-NNNNN
 
 Example:
 
-* **CVE-2014-3566** – POODLE (SSL 3.0)
+* CVE-2014-3566 – POODLE (SSL 3.0)
 
 CVEs in NVD include descriptions, severity scores, and affected CPEs.
 
----
