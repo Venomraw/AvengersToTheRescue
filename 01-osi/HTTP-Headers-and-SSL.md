@@ -26,3 +26,17 @@ This document will contain notes and answers found in the [HTTP Headers](https:/
     - GET requests data from the server. This is usually used go load websites.
     - POST sends data to the server. This is used for making a post on social media for example.
     - FTP is used for file transfer. This is usually used for downloading files onto a computer.
+
+### Answers for the gym challenge
+
+1. What HTTP request header is used to denote what URI linked to the resource being requested?
+    
+    The request is called `Referer`.
+
+2. What HTTP request header is used to identify the client software that made the HTTP request?
+
+    The request is called `User_Agent`.
+
+3. What HTTP request header is used to identify the acceptable content types that can be returned?
+
+    The request is called `Accept`.
