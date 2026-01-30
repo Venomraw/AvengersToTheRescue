@@ -12,3 +12,11 @@ This document will contain notes and answers found in the [HTTP Headers](https:/
     - A protocol (`https://www.`)
     - A domain name (`google.com`)
     - An optional path (a `/` after `.com`)
+
+2. URI
+
+    URIs (Uniform Resourse Identifier) help find the location of a resource on the internet after a user enters a URL.
+
+3. Protocols
+
+    Protocols define the rules and formats for networked devices. This usually comes in the form of HTTP and HTTPS.
