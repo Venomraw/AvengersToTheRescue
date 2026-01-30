@@ -60,3 +60,17 @@ SSL (Secure Sockets Layer) is a security protocol and encrypts traffic so you ca
 2. Certificate Authority and Trust
 
     Certificate Authority (CA) is what issues certificates. Trust is established when a client recognizes the CA from its issuer.
+
+### Answers for the gym challenge
+
+1. Who is the issuer for Cyber Skyline's SSL certificate?
+
+    The issuer is R13.
+
+2. How many bits long is the SSL key?
+
+    2048 bits.
+
+3. How many certificates are in the certificate chain?
+
+    There is only 1 certificate.
