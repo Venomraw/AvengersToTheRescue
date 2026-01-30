@@ -20,3 +20,9 @@ This document will contain notes and answers found in the [HTTP Headers](https:/
 3. Protocols
 
     Protocols define the rules and formats for networked devices. This usually comes in the form of HTTP and HTTPS.
+
+4. GET, POST, and FTP Equivalents
+
+    - GET requests data from the server. This is usually used go load websites.
+    - POST sends data to the server. This is used for making a post on social media for example.
+    - FTP is used for file transfer. This is usually used for downloading files onto a computer.
