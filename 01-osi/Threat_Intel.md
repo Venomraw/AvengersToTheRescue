@@ -43,5 +43,31 @@ Example:
 
 * CVE-2014-3566 – POODLE (SSL 3.0)
 
+## Answers for the gym challenge
+
 CVEs in NVD include descriptions, severity scores, and affected CPEs.
 
+
+1. What is the CVE of the original POODLE attack?
+
+`CVE-2014-3566`
+
+2. What version of VSFTPD contained the smiley face backdoor?
+
+`vsftpd 2.3.4`
+
+3. What was the first 1.0.1 version of OpenSSL that was NOT vulnerable to heartbleed?
+
+`OpenSSL Version 1.0.1g addresses and mitigates this vulnerability`
+
+4. What was the original RFC number that described Telnet?
+
+`RFC 854 and 855`
+
+5 .How large (in bytes) was the SQL Slammer worm?
+
+`376 bytes`
+
+6 .Samy is my…
+
+`Hero`
