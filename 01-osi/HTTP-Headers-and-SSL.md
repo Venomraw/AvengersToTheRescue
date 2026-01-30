@@ -46,3 +46,17 @@ This document will contain notes and answers found in the [HTTP Headers](https:/
 ## SSL
 
 SSL (Secure Sockets Layer) is a security protocol and encrypts traffic so you can use HTTP securely. SSL is also used (or at least was used) in the HTTPS protocol.
+
+1. SSL Certificate Chains
+
+    An SSL chain is used to verify the authenticity of a server using multiple certificates. These certificates include the following in order of how a chain works and explanations on what each certificate does.
+
+    - A root certificate. This what validates the intermediate certificate(s) and appoves a connection.
+
+    - An intermediate certificate. This is what is used between the root and server certificates. This is what is used to link the two certificates together. (The chain can include multiple intermediate certificates)
+
+    - A server certificate. Identifies websites and establishes an encrypted connection.
+
+2. Certificate Authority and Trust
+
+    Certificate Authority (CA) is what issues certificates. Trust is established when a client recognizes the CA from its issuer.
