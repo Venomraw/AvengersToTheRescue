@@ -35,8 +35,14 @@ This document will contain notes and answers found in the [HTTP Headers](https:/
 
 2. What HTTP request header is used to identify the client software that made the HTTP request?
 
-    The request is called `User_Agent`.
+    The request is called `User-Agent`.
 
 3. What HTTP request header is used to identify the acceptable content types that can be returned?
 
     The request is called `Accept`.
+
+---
+
+## SSL
+
+SSL (Secure Sockets Layer) is a security protocol and encrypts traffic so you can use HTTP securely. SSL is also used (or at least was used) in the HTTPS protocol.
