@@ -1,0 +1,1 @@
+While working with the meta image through different tools, I was not able to recieve all the required indformations that I need. Trying to compare the metadata it would just allow me to work with the same information. 
