@@ -38,3 +38,16 @@ process
 5. Try Vigenère (with guessed keys)
 6. Try XOR (single byte first)
 
+### Quipqiup Notes
+
+- Online only: https://quipqiup.com
+- Paste cipher → Substitution
+- Let solver run, then tweak manually
+- Lock correct letters early
+
+Use when
+
+- Monoalphabetic substitution
+- English‑like spacing
+- No obvious encoding layer
+
