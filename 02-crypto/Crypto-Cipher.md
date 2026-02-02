@@ -31,9 +31,9 @@ process
 1. Paste ciphertext
 2. Try Magic
 3. Identify charset
-  1. A–Z only → substitution / shift
-  2. Base64 charset → decode
-  3. Hex → decode
+    1. A–Z only → substitution / shift
+    2. Base64 charset → decode
+    3. Hex → decode
 4. Try ROT / Caesar
 5. Try Vigenère (with guessed keys)
 6. Try XOR (single byte first)
