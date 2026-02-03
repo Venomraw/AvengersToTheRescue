@@ -93,17 +93,43 @@ with the file (ex: Steg1.jpg)
 
 `strings Steg1.jpg | grep SKY`
 
-use when 
+use for 
 
 - Hidden flags in executables
 - Obfuscated scripts
 - Encrypted blobs with plaintext headers
 
+## Atbash Cipher
+
+in CyberChef use search for atbash  
+there are no paramiters needed 
 
 
+or on the command line
+`echo "CIPHERTEXT" | tr 'abcdefghijklmnopqrstuvwxyz' 'zyxwvutsrqponmlkjihgfedcba'`  
+where tr is traslate here it is traslating the letter a with the letter z etc
 
+## Fencing Cipher
 
+Indicators
 
+- Same characters, reordered
+- Words feel scrambled
+- Hints like "fence", "zigzag", "rails"
+  
+CyberChef
+
+- Rail Fence Cipher
+- Try rails 2–6
+- Try both encode/decode
+
+or on the command line
+```
+python3 - << 'EOF'
+from pycipher import Railfence
+print(Railfence(3).decipher("CIPHERTEXT"))
+EOF
+```
 
 
 
