@@ -105,7 +105,7 @@ in CyberChef use search for atbash
 there are no paramiters needed 
 
 
-or on the command line
+or on the command line  
 `echo "CIPHERTEXT" | tr 'abcdefghijklmnopqrstuvwxyz' 'zyxwvutsrqponmlkjihgfedcba'`  
 where tr is traslate here it is traslating the letter a with the letter z etc
 
