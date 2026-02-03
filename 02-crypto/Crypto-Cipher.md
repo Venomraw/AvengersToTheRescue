@@ -19,7 +19,7 @@ cd CyberChef
 npm install
 npm start
 ```
-### CyberChef  Notes
+## CyberChef  Notes
 CyberChef layout
 
 - Left panel: operations
@@ -38,7 +38,7 @@ process
 5. Try Vigenère (with guessed keys)
 6. Try XOR (single byte first)
 
-### Quipqiup Notes
+## Quipqiup Notes
 
 - Online only: https://quipqiup.com
 - Paste cipher → Substitution
@@ -50,4 +50,36 @@ Use when
 - Monoalphabetic substitution
 - English‑like spacing
 - No obvious encoding layer
+
+## Shift Ciphers
+
+Indicators
+
+- Only letters, single case
+- Frequency resembles natural language
+- Small shifts reveal readable text
+
+search for ROT13 on CyberChef after pasting in the ciphertext (ex: iveghny ynxr ) 
+
+or on the command line
+```
+for i in {1..25}; do
+echo "SHIFT $i"
+caesar $i "ciphertext"
+done
+```
+replace "ciphertext" with the actual ciphertext 
+look for somthing readable 
+
+
+
+
+
+
+
+
+
+
+
+
 
