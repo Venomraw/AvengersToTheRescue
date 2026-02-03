@@ -68,8 +68,26 @@ echo "SHIFT $i"
 caesar $i "ciphertext"
 done
 ```
-replace "ciphertext" with the actual ciphertext 
-look for somthing readable 
+replace "ciphertext" with the actual ciphertext and look for somthing readable 
+
+## Language‑Specific Ciphers
+
+in CyberChef use frequency distribution to see the common letters for a spiffic language  
+then ues the vigenère cipher with a key 
+
+(ex: Y ln xkv lubj swlzqvkht, A vmzb pjk bbua we ddgs ILQ-GQYU-8026)  
+using the key: qizkwcgqbs  
+
+or on the command line
+
+`langdetect <<< "ciphertext"`
+
+replace "ciphertext" with the actual ciphertext and this outputs the language (ex: fr)
+
+
+
+
+
 
 
 
