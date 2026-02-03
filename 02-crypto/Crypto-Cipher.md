@@ -84,8 +84,20 @@ or on the command line
 
 replace "ciphertext" with the actual ciphertext and this outputs the language (ex: fr)
 
+## Strings
 
+Purpose is to extract readable text from binaries or files
 
+use `strings` with `grep` on the command line to search for text  
+with the file (ex: Steg1.jpg)  
+
+`strings Steg1.jpg | grep SKY`
+
+use when 
+
+- Hidden flags in executables
+- Obfuscated scripts
+- Encrypted blobs with plaintext headers
 
 
 
