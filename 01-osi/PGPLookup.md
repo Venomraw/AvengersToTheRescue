@@ -1,6 +1,6 @@
-**NCL PGP Lookup: The Ultimate Angle Guide  
+NCL PGP Lookup: The Ultimate Angle Guide  
 
-<br/>1\. The Standard Search Angle (Keyserver Discovery)**
+**1\. The Standard Search Angle (Keyserver Discovery)**
 
 The most common task is finding a specific key based on an email address or a name.
 
