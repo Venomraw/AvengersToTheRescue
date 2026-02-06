@@ -4,9 +4,19 @@ Notes for using tools to crack passwords for Windows and PDF files.
 
 ## Password Cracking Tools
 
-**John The Ripper**: Free password cracking tool that can quickly extract password from a variety of hash types.
+- **John The Ripper**: Free password cracking tool that can quickly extract password from a variety of hash types.
 
-**Ophcrack**: A password cracker program for Windows that is comepletely free. Utlizes rainbow tables for cracking passwords. Useful for cracking NT and LM password hashes.
+- **Ophcrack**: A password cracker program for Windows that is comepletely free. Utlizes rainbow tables for cracking passwords. Useful for cracking NT and LM password hashes.
+
+### Where to Install
+
+- For `john`, in linux install using terminal.
+
+    `sudo apt install john`
+
+- For ophcrack you can visit this website to install.
+
+    [Ophcrack Website](https://ophcrack.sourceforge.io/download.php?type=ophcrack)
 
 ## PDF Password Cracking with John
 
