@@ -17,19 +17,43 @@ Before you run commands to use John, you need to have a `.txt` file of a word li
 
 ---
 
+## 500 Passwords List
+
+### What is it?
+
+The 500 passwords as the name says, contains the 500 most common passwords in one file.
+
+### What is in the list?
+
+The list contains weak passwords. Most of the passwords contained are locations, names, things, numbers, and simple words.
+
+- A few passwords in the list include the following
+    
+    * `football`
+    * `dragon`
+    * `1234567`
+    * `qwerty`
+    * `password`
+
+### Why have the list?
+
+The list can be used to do quick hash cracking and can also be used as what your password shouldn't be. You can find the list [here](https://www.scribd.com/document/723645137/500-most-commonly-used-password)
+
+---
+
 ## rockyou.txt
 
 ### What is rockyou.txt?
 
-rockyou.txt is the most common word list used to crack passwords containing over 14 million passwords, most of which are weak passwords.
+rockyou.txt is the most common word list used to crack passwords/hashes, with the list containing over 14 million passwords, most of which are weak passwords.
 
-### Why?
+### Why does this list exist?
 
 Rockyou is a company that was desolved in 2019 that created widgets for MySpace and Facebook founded in 2005. In 2009, Rockyou had a data breach where over 32 million accounts got compromised and over 14 million passwords were leaked. The reason the breach caused that many passwords to be exposed was because Rockyou stored their users passwords in a SQL database without encrypting them. The person(s) responsable for the breach used an old SQL vulnerability that Rockyou did not update to patch, which resulted in rockyou.txt to be formed
 
 ### Where to Find rockyou.txt?
 
-Because rockyou.txt is ~133MB in size, I will not include it in the repository. The file is easy to find using a google search.
+Because rockyou.txt is ~133MB in size, I will not include it in the repository. You can find the rockyou.txt [here](https://www.kaggle.com/datasets/wjburns/common-password-list-rockyoutxt)
 
 ---
 
