@@ -82,7 +82,8 @@ or on the command line
 
 `langdetect <<< "ciphertext"`
 
-replace "ciphertext" with the actual ciphertext and this outputs the language (ex: fr)
+replace "ciphertext" with the actual ciphertext and this outputs the language (ex: fr)  
+ `langdetect` is a part of Python package so you need Python installed
 
 ## Strings
 
