@@ -59,7 +59,7 @@ Number bases
 - Used [RapidTables](https://www.rapidtables.com/convert/number/hex-to-ascii.html) to convert the given encoded text. ANS: scorpion
 - Used [CyberChef](https://cyberchef.cyberskyline.com/#recipe=From_Base64%28'A-Za-z0-9%2B/%3D',true,false%29) to convert the given encoded text. ANS: scribble
 - Used [Binary Hex Converter](https://www.binaryhexconverter.com/binary-to-ascii-text-converter) to convert the given encoded text. ANS securely
-- Used [Binary Hex Converter](https://www.binaryhexconverter.com/binary-to-ascii-text-converter) to convert the given binary to ASCII text value then further decoded using [Base64Decode](https://www.base64decode.org/).
+- Used [Binary Hex Converter](https://www.binaryhexconverter.com/binary-to-ascii-text-converter) to convert the given binary to ASCII text value then further decoded using [Base64Decode](https://www.base64decode.org/). ANS: lollipop
 
 Shift
 
