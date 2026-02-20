@@ -42,7 +42,7 @@ Open the image:
 
  ------------------------------------------------------------------------
 
-## Docter
+# Docter
 
 Extract hidden data from a Microsoft Word document container
 A `.docx` file is actually a ZIP archive
