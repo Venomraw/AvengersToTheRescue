@@ -58,7 +58,7 @@ Use an online NTLM cracker: https://crackstation.net
 
 Answers
 ```
-1. Win10x64
+1. Windows 10
 2. DESKTOP-OT97GG3
 3. liber8hacker
 4. C:\Users\liber8hacker\Desktop\black_book.db
