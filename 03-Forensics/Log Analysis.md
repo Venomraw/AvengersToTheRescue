@@ -70,11 +70,11 @@ To complete this challenge, looking into the content of the given logs is very i
 
 ANS: Find the hostname, which is listed directly after the timestamp for each entry in the log. (myraptor)
 
-1. What was the first IP address to attack the server?
+2. What was the first IP address to attack the server?
 
 ANS: Look into the logs for the IP address of the attacker in the first “Failed password” entries. (169.139.243.218) 3.
 
-1. What was the second IP address to attack the server?
+3. What was the second IP address to attack the server?
 
 ANS: This can be solved in the same way as the previous question by looking at the subsequent “Failed password” entries. (56.13.188.38)
 
@@ -138,48 +138,46 @@ We need to run the following attached codes in the root directory in the Gym, an
 
 cat vsftpd.log | grep ftpuser
 
-1. **What is the first directory that ftpuser created?**
+2. **What is the first directory that ftpuser created?**
 
 cat vsftpd.log | grep ftpuser | grep -i mkdir | head -n 1
 
-1. **What is the last directory that ftpuser created?**
+3. **What is the last directory that ftpuser created?**
 
 cat vsftpd.log | grep ftpuser | grep -i mkdir | tail -n 1
 
-1. **What file extension was the most used by ftpuser?**
+4. **What file extension was the most used by ftpuser?**
 
 cat vsftpd.log | grep ftpuser | grep 'OK UPLOAD' | awk -F ',' '{print $2 }' | awk -F "." '{print $2}' | sort | uniq -c | sort
 
-1. **What is the username of the other user in this log?**
+5. **What is the username of the other user in this log?**
 
 cat vsftpd.log | awk '{print $8}' | sort | uniq
 
-1. **What IP address did this other user log in from?**
+6. **What IP address did this other user log in from?**
 
 cat vsftpd.log | grep jimmy
 
-1. **How many total bytes did this other user upload?**
+7. **How many total bytes did this other user upload?**
 
 cat vsftpd.log | grep jimmy | grep 'OK UPLOAD' | awk -F ',' '{print $3 }' | awk '{s+=$1} END {print s}'
 
-1. **How many total bytes did ftpuser upload?**
+8. **How many total bytes did ftpuser upload?**
 
 cat vsftpd.log | grep ftpuser | grep 'OK UPLOAD' | awk -F ',' '{print $3 }' | awk '{s+=$1} END {print s}'
 
-1. **How many total bytes did ftpuser download?**
+9. **How many total bytes did ftpuser download?**
 
 cat vsftpd.log | grep ftpuser | grep 'OK DOWNLOAD' | awk -F ',' '{print $3 }' | awk '{s+=$1} END {print s}'
 
-1. **Identify the IP address of the suspicious login (the login with no subsequent activity)**
+10. **Identify the IP address of the suspicious login (the login with no subsequent activity)**
 
 cat vsftpd.log | grep 'OK LOGIN' | awk -F '"' '{print $2 }' | sort | uniq
 
 # Nginx
 
-This challenge is about utilizing fundamental Linux commands like cut, sort, uniq, wc, grep, and awk to look at a nginx access log. The IP address is usually the first entry in nginx logs. You may use cut to get it, then sort and count it with sort | uniq | wc -l to find out how many different people visited the server. At the end of each line, there are HTTP status codes (such 200, 404, and 500). You may use cut with a double quotation (") as a delimiter to get them, since the request portion is in quotes. After being separated, the codes can be counted and sorted to find the most common responses
-
-. We can use either cut or awk to extract the request field and inspect HTTP methods like GET and POST. To use cut, first separate the quoted request, and then get the first word (the procedure). The HTTP method is usually the sixth field when using awk, which uses whitespace as the default separator. Sort and use uniq -c to find out how often each method is used, and sort -rn to list them from most to least common. Grep is also good for finding patterns, and the -o option only prints the part of a line that matches.
-
+This challenge is about utilizing fundamental Linux commands like cut, sort, uniq, wc, grep, and awk to look at a nginx access log. The IP address is usually the first entry in nginx logs. You may use cut to get it, then sort and count it with sort | uniq | wc -l to find out how many different people visited the server. At the end of each line, there are HTTP status codes (such 200, 404, and 500). You may use cut with a double quotation (") as a delimiter to get them, since the request portion is in quotes. After being separated, the codes can be counted and sorted to find the most common responses. 
+ We can use either cut or awk to extract the request field and inspect HTTP methods like GET and POST. To use cut, first separate the quoted request, and then get the first word (the procedure). The HTTP method is usually the sixth field when using awk, which uses whitespace as the default separator. Sort and use uniq -c to find out how often each method is used, and sort -rn to list them from most to least common. Grep is also good for finding patterns, and the -o option only prints the part of a line that matches.
 The backslash (\) is an escape character in the Linux shell, therefore you have to be very careful when looking for raw byte sequences like \x04 or \41. You need to escape it with another backslash (for example, grep '\\41' access.log) so that the shell doesn't change it to ASCII. This makes sure that the log is searched for the exact byte sequence. In general, these commands let you easily retrieve organized data, identify problems, and analyze traffic patterns from nginx logs.
 
 **GYM Challenges**
